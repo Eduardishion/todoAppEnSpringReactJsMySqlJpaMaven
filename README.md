@@ -6,7 +6,7 @@ Para este proyecto se uso:
 
 Vista previa
 
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![alt text](https://github.com/Eduardishion/todoAppEnSpringReactJsMySqlJpaMaven/blob/master/preview.png)
 
 
 1.-Recordar se debe tener instalado MySql previamente, verificar y modificar las credenciales de la base datos para que coincidan con tu configuracion en el archivo del proyecto, la tabla es creada en JPA se crearan automaticamente y modificar el archivo.
