@@ -1,4 +1,4 @@
-Para este proyecto se uso:
+## Para este proyecto que ido haciendo de manera autodidacta para aprender estas tegnologias use:
 	-MySql y JPA
 	-Spring Boot
 	-ReactJs
