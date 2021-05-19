@@ -1,4 +1,4 @@
-## Para este proyecto que ido haciendo de manera autodidacta para aprender estas tegnologias use:
+## Para este proyecto que ido haciendo de manera autodidacta para aprender estas tecnologías:
 	-MySql y JPA
 	-Spring Boot
 	-ReactJs
