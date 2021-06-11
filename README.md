@@ -4,6 +4,18 @@
 	-ReactJs
 	-Maven
 
+Algunas de las referencias en las cual me base y de las que considero mas facil de entender spring boot fue:
+
+- Hands-On Full Stack Development with Spring Boot 2.0 and React
+Build modern and scalable full stack applications using the Java-based Spring Framework 5.0 and React
+Juha Hinkula
+
+- Spring, Hibernate, Data Modeling, REST and TDD:Agile Java Design and Development Paperback
+
+Aun que la referencia que mas me ayudo fue la primera por que tiene un ejemplo muy claro de como iniciar el entorno de desarrollo, desde el uso de Spring Initializr, configuracion de la base de datos, tanto h2 para pruebas y mysql hasta armar el controlador y su endpoints para realiar las peraciones CRUD, tambien tiene el ejemplo de como integrar json web token el que ya no implemente en este ejemplo.
+
+
+
 Vista previa
 
 ![alt text](https://github.com/Eduardishion/todoAppEnSpringReactJsMySqlJpaMaven/blob/master/preview.png)
