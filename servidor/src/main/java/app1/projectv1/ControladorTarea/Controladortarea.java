@@ -41,8 +41,18 @@ public class Controladortarea {
     private List<Tarea> getAllTareas(){
         return servTarea.getAllTareas();
     }
-    
-    // obtener un tarea especifica con id con el uso del metodo get 
+
+    @GetMapping("/api/tareasT")
+    private List<Tarea> getAllTareasQuery(){
+        return servTarea.getAllTareasQuery();
+    }
+
+    @GetMapping("/api/tareasO")
+    private List<Tarea> getAllTareasQueryOrder() {
+        return servTarea.getAllTareasQueryOrder(2);
+    }
+
+    // obtener un tarea especifica con id con el uso del metodo get
     @GetMapping("api/tareas/{id}")
     private Tarea getTarea(@PathVariable("id")long id){
         return servTarea.getTareaById(id);

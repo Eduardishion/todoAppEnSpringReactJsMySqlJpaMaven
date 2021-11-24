@@ -15,6 +15,8 @@ import app1.projectv1.EntidadesTarea.Tarea;
 
 public interface InterfazServiciosTarea {
     public List<Tarea> getAllTareas();
+    public List<Tarea> getAllTareasQuery();
+    public List<Tarea> getAllTareasQueryOrder(long id);
     public Tarea getTareaById(long id);
     public void saveTarea(Tarea tarea);
     public void deleteTarea(long id);

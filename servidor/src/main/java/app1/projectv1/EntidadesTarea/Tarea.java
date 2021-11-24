@@ -5,16 +5,12 @@
  */
 package app1.projectv1.EntidadesTarea;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
+import java.util.List;
+import app1.projectv1.EntidadesTarea.Category;
 
-/**
- *
- * @author Caren
- */
 
+@Table(name = "Tareas")
 @Entity
 public class Tarea {
     @Id
@@ -23,7 +19,14 @@ public class Tarea {
     
     private String titulo;
     private String descrip;
-    
+
+    @ManyToOne
+    @JoinColumn(name="category_id")
+    private Category category;
+
+    @OneToMany(mappedBy = "tarea")
+    private List<Image> images;
+
 
     public Tarea() {
     }
